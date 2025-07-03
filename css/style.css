@@ -1,0 +1,72 @@
+body{
+    background-color: #303338;
+}
+
+@font-face {
+    font-family: "nerko";
+    src: url("../fonts/Comfortaa,Nerko_One/Nerko_One/NerkoOne-Regular.ttf");
+}
+
+/* navbar color */
+.my-nav-bg{
+    background-color: #3A497B;
+}
+
+.shadow-nav{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.font-family{
+    font-family: "nerko";
+    font-weight: 300;
+}
+
+.card-bg{
+    background-color: #303338;
+}
+
+.card-p{
+    color: #929599;
+}
+
+.badge-color{
+    font-size: 13px;
+    background-color: #32383e;
+}
+
+.card{
+    transition: 0.5s all ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.035);
+}
+
+.filter{
+  filter: brightness(50%);
+}
+
+
+.card:hover .filter{
+    filter: brightness(100%);
+
+}
+
+
+
+.btn-color{
+    background-color: #303338;
+    border: 1px solid #FFC107;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+.btn-color:hover{
+    background-color: #FFC107;
+}
+
+
+.myActive{
+    color: #0099CC !important;
+}
